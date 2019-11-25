@@ -1,0 +1,68 @@
+Descripción de los datos
+
+base_inicial.csv
+	codtarget - indica si el cliente contactado adquirió una TC en el mes
+	margen - rentabilidad esperada de ese cliente menos los costos de gestion
+	cem - capacidad de endeudamiento
+	ingreso_neto - ingreso estimado
+	lines_ofrecida - linea ofertada
+
+base_campanias.csv
+	prodcuto - producto que se le ofrecio al cliente en la campaña
+	canal_asignado - cananl asignado para la venta/contacto
+	
+base_digital.csv
+	simu_prestamo - numero de veces en el dia en que el cliente utilizó el simulador de préstamos
+	benefit - numero de veces en el dia en que el cliente ingresó a la pagina de interbank benefit
+	email - numero de veces en el dia en que el cliente arribó al sitio a traves de email
+	facebook - numero de veces en el dia en que el cliente arribó al sitio a traves de facebook
+	goog - numero de veces en el dia en que el cliente arribó al sitio a traves de google
+	youtb - numero de veces en el dia en que el cliente arribó al sitio a traves de youtube
+	compb - numero de veces en el dia en que el cliente arribó al sitio a traves de comparabien
+	movil - numero de sesiones iniciadas en el movil
+	desktop - numero de sesiones iniciadas en desktop
+	n_rep30 - si ha tenido una sesion en los 30 dias previos
+	recencia - variable categorica que indica hace cuanto fue su ultima sesion, donde 100 = primera sesion.
+	lima_dig - si tuvo una visita desde lima
+	provincia_dig - si tuvo una visita desde provincia
+	extranjero_dig - si tuvo una visita desde el extranjero
+	time_ctasimple - tiempo visitanto páginas referentes a cuenta simple
+	time_mllp - tiempo visitanto páginas referentes a cuenta millonaria premia
+	time_mllst - tiempo visitanto páginas referentes a cuenta millonaria super tasa
+	time_ctasld - tiempo visitanto páginas referentes a cuenta sueldo
+	time_tc - tiempo visitanto páginas referentes a tarjeta de credito
+	n_sesion - numero de sesiones en el dia
+	busqtc - utilizo el buscador para buscar información de TC
+	busqvisa - utilizo el buscador para buscar información devisa
+	busqamex - utilizo el buscador para buscar información de american express
+	busqmc - utilizo el buscador para buscar información de master card
+	busqcsimp - utilizo el buscador para buscar información de cuenta simple
+	busqmll - utilizo el buscador para buscar información de cuenta millonaria
+	busqcsld - utilizo el buscador para buscar información de cuenta sueldo
+	busq - utilizo el buscador
+	n_pag - numero de paginas visitadas en el dia
+	android - Si uso android cual es su sistema operativo
+	iphone - si uso iphone cual fue su sistema operativo
+	
+base_rcc.csv
+	cod_banco - entidad financiera con la que el cliente tiene un saldo
+	producto - producto que el cliente tiene en la entidad
+	clasif - clasificacion de riesgo en dicho producto-entidad
+	mto_saldo - saldo que tiene en dicho producto-entidad
+	rango_mora - rango de sus dias de mora en el producto-entidad
+	base_reniec.csv
+	soc_var1 - variable sociodemográfica 1
+	soc_var2 - variable sociodemográfica 2
+	soc_var3 - variable sociodemográfica 3
+	soc_var4 - variable sociodemográfica 4
+	soc_var5 - variable sociodemográfica 5
+	soc_var6 - variable sociodemográfica 6
+	
+base_sunat.csv
+	activ_econo - grupo de actividad económica del RUC de la persona
+	meses_alta - numero de meses de vigencia en dicha actividad hasta fin del 2018
+	
+base_vehicular.csv
+	marca - marca del vehiculo
+	veh_var1 - variable vehicular 1
+	veh_var2 - variable vehicular 2
